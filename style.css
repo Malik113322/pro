@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.logo-first {
+    width: 50px;
+}
+
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.carousel-item img {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+
+.second-logo {
+    width: 300px;
+}
+
+
+
+nav .navbar-toggler {
+    border: none;
+}
+
+nav .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+@media screen and (max-width: 720px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+
+
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .okk {
+        /* border: 2px solid yellow; */
+        width: 100vw;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+
+    .services-mob {
+        text-align: center;
+    }
+
+    .second-logo-sm {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .logo-first {
+        width: 30px;
+    }
+
+    .second-logo-sm {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .services {
+        text-align: center;
+    }
+
+    #contact textarea {
+        width: 250px;
+        outline: none;
+    }
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .row .services-card {
+        margin: 0 auto;
+
+    }
+
+    .team-last {
+        margin: auto;
+    }
+
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+    }
+
+    html {
+        overflow-x: hidden;
+    }
+
+
+
+    .services-mob {
+        text-align: center;
+    }
+
+    .logo-first {
+        width: 30px;
+    }
+
+    .second-logo-sm {
+        width: 380px;
+        margin: 0 auto;
+    }
+
+    .services {
+        text-align: center;
+    }
+}
